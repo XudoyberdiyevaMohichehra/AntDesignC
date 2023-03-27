@@ -1,8 +1,19 @@
 import styled from "styled-components";
 
-const Container = styled.div`
+
+const Wrapper = styled.div`
   display: flex;
-  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+`;
+const Container = styled.div`
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 25px;
 `;
 
-export { Container };
+
+
+export { Container, Wrapper };
