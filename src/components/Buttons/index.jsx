@@ -5,7 +5,7 @@ import Button from "./Button";
 import LoadImg from "../../assets/imgs/loader.png";
 import { LoadImage } from "./Button/style";
 import DownloadImg from "../../assets/icons/btn_download.svg";
-import SearchImg from "../../assets/icons/antlogo.svg";
+import SearchImg from "../../assets/icons/btn_search.svg";
 
 
 const Buttons = () => {

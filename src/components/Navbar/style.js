@@ -6,6 +6,7 @@ import { ReactComponent as git } from "../../assets/icons/git.svg";
 
 const Container = styled.div`
   display: flex;
+  padding-left:25px;
   align-items: center;
   height: var(--navbar-height);
   box-shadow: var(--shadow);
@@ -19,18 +20,29 @@ const Container = styled.div`
     font-weight: 900;
   }
 `;
+const LogoWrap = styled.div`
+  display: flex;
+  max-width:275px;
+  min-width:275px;
+`;
+const Logo = styled.img`
+  width:40px;
+  height:40px;
+`;
 
 const Link = styled(NavLink)`
   color: var(--color);
   text-decoration: none;
   font-size: 18px;
   width: fit-content;
+  :focus{
+    color:var(--aquaColor);
+  }
 `;
 const User = styled(NavLink)`
   color: var(--color);
   text-decoration: none;
-  font-size: 28px;
-  max-width: 300px;
+  font-size: 26px;
   width: 100%;
   padding-left: 25px;
   border-right: var(--border);
@@ -44,7 +56,9 @@ const Contact = styled.div`
 `;
 
 Contact.User = styled.div`
-  font-size: 20px;
+  font-size: 18px;
+  font-weight:700;
+  color: var(--color);
 `;
 Contact.Telegram = styled(tg)`
   cursor: pointer;
@@ -64,4 +78,4 @@ const Wrapper = styled.div`
   gap: 20px;
 `;
 
-export { Container, Link, Contact, Wrapper, User };
+export { Container,LogoWrap, Logo, Link, Contact, Wrapper, User };

@@ -1,15 +1,22 @@
 import React from "react";
-import { useLocation, Outlet } from "react-router-dom";
-import { Container } from "./style";
+import { Outlet } from "react-router-dom";
+import { Container,ComponentsWrapper, SmallCard, Title } from "./style";
+import {sidebar} from '../../utils/sidebar'
 
-export const Generic = () => {
-  const location = useLocation();
+export const Components = () => {
   return (
     <Container>
-      <Outlet />
-      <h1>Generic {location.pathname} coming soon</h1>
-    </Container>
+    <Outlet />
+
+    <ComponentsWrapper>
+      {sidebar.map((v) => (
+        <SmallCard key={v.id} to={v.path}>
+          <Title>{v.title}</Title>
+        </SmallCard>
+      ))}
+    </ComponentsWrapper>
+  </Container>
   );
 };
 
-export default Generic;
+export default Components;
