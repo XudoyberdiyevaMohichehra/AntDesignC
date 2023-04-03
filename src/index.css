@@ -7,12 +7,14 @@
   box-sizing: border-box;
   list-style: circle;
   outline: none;
+  /* background: rgb(104, 249, 104); */
 }
 
 :root {
+  --blue:#1890ff;
   --sidebar-width: 290px;
   --navbar-height: 67px;
-  --greenColor:rgb(71, 226, 71);
+  --greenColor:rgba(45, 245, 111, 0.879);
   --color: #797caa;
   --aquaColor:rgb(15, 157, 175);
   --border: 1px solid #f0f0f0;
@@ -47,13 +49,15 @@
     --dangerColor: #ee6062;
     --primary: #007bff;
     --secondary: #6c757d;
-    --success: #28a745;
+    --success: #37f062;
     --danger: #d76671e1;
     --warning: #e9f416d2;
     --info: #17a2b8;
     --light: #f8f9fa;
     --dark: #343a40;
     --white: #fff;
+    --shadowColor:rgba(73, 75, 116, 0.16);
+    --greenShadow:rgba(20, 248, 20, 0.451);
 }
 
 ::-webkit-scrollbar {
