@@ -8,6 +8,7 @@ import {Checkbox} from "../components/Checkboxes/index"
 import { Switch } from "../components/Switchs/index";
 import { Table } from "../components/Tables/index";
 
+
 export const sidebar = [
   {
     id: 1,

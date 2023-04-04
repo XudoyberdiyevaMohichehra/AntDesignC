@@ -11,7 +11,7 @@
 }
 
 :root {
-  --blue:#1890ff;
+  --blue:#d1cfcf;
   --sidebar-width: 290px;
   --navbar-height: 67px;
   --greenColor:rgba(45, 245, 111, 0.879);
@@ -61,7 +61,8 @@
 }
 
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 10px;
+  border-radius: 50%;
 }
 
 /* Track */
@@ -72,6 +73,7 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--primaryBgColor); 
+  border-radius: 25px;
 }
 
 /* Handle on hover */

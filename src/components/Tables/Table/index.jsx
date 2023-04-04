@@ -63,7 +63,7 @@ class ScrollableTable extends Component {
     };
     return (
       <div className="tablePage">
-        <input
+        {/* <input
           value={this.state.name}
           onChange={onChange}
           name="name"
@@ -84,7 +84,7 @@ class ScrollableTable extends Component {
           <option value="nickname">nickname</option>
           <option value="status">status</option>
           <option value="id">id</option>
-        </select>
+        </select> */}
         <div className="tableWrapper"> 
           <table>
             <thead>
@@ -97,7 +97,7 @@ class ScrollableTable extends Component {
                 <th>Nickname</th>
                 <th>Univ</th>
                 <th>Job</th>
-                <th>Edit</th>
+                <th colSpan={2}>Edit</th>
               </tr>
             </thead>
             <tbody>
@@ -212,9 +212,12 @@ class ScrollableTable extends Component {
                           >
                             {this.state.active?.id === id ? "save" : "edit"}
                           </button>
-                          {/* <button onClick={() => onDelete(id)} className="btn">
+                          
+                        </td>
+                        <td>
+                        <button onClick={() => onDelete(id)} className="btn">
                             Dell
-                          </button> */}
+                          </button>
                         </td>
                       </tr>
                     );

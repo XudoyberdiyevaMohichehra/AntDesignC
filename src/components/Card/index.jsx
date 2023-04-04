@@ -11,10 +11,13 @@ export const Card = ({type='unknown', children, desc}) => {
       <Header>{children}</Header>
       <Body>
         <legend  style={{
-              fontSize: "24px",
-              fontWeight: "600",
+              fontSize: "28px",
+              fontWeight: "500",
             }}>{type}</legend>
-        {desc}
+        <p style={{
+              fontSize: "20px",
+              fontWeight: "500",
+            }}>{desc}</p>
       </Body>
       <Footer>
         <A href="https://t.me/Mohichehra0501">
