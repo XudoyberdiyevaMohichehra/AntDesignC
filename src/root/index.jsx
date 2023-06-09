@@ -27,6 +27,8 @@ export const Root = () => {
         {navbar.map((value) => (
           <Route key={value.id} path={value.path} element={value.element} />
         ))}
+        <Route path="/" element={<Sidebar />} />
+
       </Routes>
     </div>
   );
