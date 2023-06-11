@@ -9,6 +9,7 @@ import { Switch } from "../components/Switchs/index";
 import { Table } from "../components/Tables/index";
 import { Carousel } from "../components/Carousels";
 import { Badge } from "../components/Badges";
+import { Progress } from "../components/Progress";
 
 
 export const sidebar = [
@@ -34,7 +35,7 @@ export const sidebar = [
   {id:6, title:'Switch',icon:<CheckCircleOutlined/>, path:'/components/switch', element:<Switch/>},
   {id:7, title:'Table',icon:<CheckCircleOutlined/>, path:'/components/table',  element:<Table/>},
   {id:8, title:'Carousel',icon:<CheckCircleOutlined/>, path:'/components/carousel', element:<Carousel/>},
-  {id:9, title:'Progress',icon:<CheckCircleOutlined/>, path:'/components/progress',  element:<Generic/>},
+  {id:9, title:'Progress',icon:<CheckCircleOutlined/>, path:'/components/progress',  element:<Progress/>},
   {id:10, title:'Badge',icon:<CheckCircleOutlined/>, path:'/components/badge',  element:<Badge/>},
   {id:11, title:'Forms',icon:<ClockCircleOutlined/>, path:'/components/forms',  element:<Generic/>},
   {id:12, title:'Date picker',icon:<ClockCircleOutlined/>, path:'/components/datepicker',  element:<Generic/>},
