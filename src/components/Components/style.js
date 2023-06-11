@@ -6,12 +6,15 @@ import { Link } from "react-router-dom";
 `;
 
  const SmallCard = styled(Link)`
+  display:flex;
+  align-items:center;
+  justify-content: center;
   margin: 15px;
-  // padding: 25px;
   max-width:200px;
   min-width:200px;
-  height:250px;
+  height:200px;
   border:var(--border);
+  text-align:center;
   border-radius:4px;
   transition: box-shadow 0.3s ease;
   :hover{
@@ -31,10 +34,19 @@ import { Link } from "react-router-dom";
   overflow-y:scroll;
   height:calc(100vh - var(--navbar-height ) - 25px)
 `;
-export const Title = styled.div`
-  border-bottom: var(--border);
-  padding: 15px;
+// export const Title = styled.div`
+//   border-bottom: var(--border);
+//   padding: 15px;
 
+// `;
+export const Button = styled.div`
+  background:var(--primaryBgColor);
+  padding: 20px 20px !important;
+  color: white;
+  width: 100px;
+  font-weight:600;
+  border-radius: 15px;
+  margin-top; 50px !important;
 `;
  
 

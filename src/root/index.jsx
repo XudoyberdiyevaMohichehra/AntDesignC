@@ -5,6 +5,9 @@ import Sidebar from "../components/Sidebar";
 import Components from "../components/Components";
 import { navbar } from "../utils/navbar";
 import { sidebar } from "../utils/sidebar";
+import Generic from "../components/Generic";
+import Soon from "../components/Soonpage";
+import Page from "../components/404page";
 
 export const Root = () => {
   return (
@@ -27,7 +30,8 @@ export const Root = () => {
         {navbar.map((value) => (
           <Route key={value.id} path={value.path} element={value.element} />
         ))}
-        <Route path="/" element={<Sidebar />} />
+        <Route path="/" element={<Soon />} />
+        <Route path="*" element={<Page />} />
 
       </Routes>
     </div>

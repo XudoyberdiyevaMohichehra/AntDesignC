@@ -10,6 +10,7 @@ import { Table } from "../components/Tables/index";
 import { Carousel } from "../components/Carousels";
 import { Badge } from "../components/Badges";
 import { Progress } from "../components/Progress";
+import Soon from "../components/Soonpage";
 
 
 export const sidebar = [
@@ -37,11 +38,11 @@ export const sidebar = [
   {id:8, title:'Carousel',icon:<CheckCircleOutlined/>, path:'/components/carousel', element:<Carousel/>},
   {id:9, title:'Progress',icon:<CheckCircleOutlined/>, path:'/components/progress',  element:<Progress/>},
   {id:10, title:'Badge',icon:<CheckCircleOutlined/>, path:'/components/badge',  element:<Badge/>},
-  {id:11, title:'Forms',icon:<ClockCircleOutlined/>, path:'/components/forms',  element:<Generic/>},
-  {id:12, title:'Date picker',icon:<ClockCircleOutlined/>, path:'/components/datepicker',  element:<Generic/>},
-  // {id:13, title:'Steps',icon:<ClockCircleOutlined/>, path:'/components/steps',  element:<Generic/>},
-  // {id:14, title:'Transfer',icon:<ClockCircleOutlined/>, path:'/components/transfer',  element:<Generic/>},
-  // {id:15, title:'Upload',icon:<ClockCircleOutlined/>, path:'/components/upload',  element:<Generic/>},
+  {id:11, title:'Forms',icon:<ClockCircleOutlined/>, path:'/components/forms',  element:<Soon/>},
+  { id: 12, title: 'Date picker', icon: <ClockCircleOutlined />, path: '/components/datepicker', element: <Soon />},
+  { id: 13, title: 'Steps', icon: <ClockCircleOutlined />, path: '/components/steps', element: <Soon />},
+  { id: 14, title: 'Transfer', icon: <ClockCircleOutlined />, path: '/components/transfer', element: <Soon />},
+  { id: 15, title: 'Upload', icon: <ClockCircleOutlined />, path: '/components/upload', element: <Soon />},
   // {id:16, title:'Avatar',icon:<ClockCircleOutlined/>, path:'/components/avatar', element:<Generic/>},
   // {id:17, title:'Calendar',icon:<ClockCircleOutlined/>, path:'/components/calendar', element:<Generic/>},
   // {id:18, title:'Card',icon:<ClockCircleOutlined/>, path:'/components/card',  element:<Generic/>},
