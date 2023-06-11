@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
  const Container = styled.div`
   display: flex;
+  justify-content:center;
 `;
 
  const SmallCard = styled(Link)`
@@ -32,7 +33,9 @@ import { Link } from "react-router-dom";
   align-items: flex-start;
   flex-wrap: wrap;
   overflow-y:scroll;
-  height:calc(100vh - var(--navbar-height ) - 25px)
+  height:calc(100vh - var(--navbar-height ) - 25px);
+  display: flex;
+  justify-content:center;
 `;
 // export const Title = styled.div`
 //   border-bottom: var(--border);

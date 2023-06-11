@@ -8,6 +8,7 @@ import { sidebar } from "../utils/sidebar";
 import Generic from "../components/Generic";
 import Soon from "../components/Soonpage";
 import Page from "../components/404page";
+import First from "../components/First";
 
 export const Root = () => {
   return (
@@ -30,7 +31,7 @@ export const Root = () => {
         {navbar.map((value) => (
           <Route key={value.id} path={value.path} element={value.element} />
         ))}
-        <Route path="/" element={<Soon />} />
+        <Route path="/" element={<Components />} />
         <Route path="*" element={<Page />} />
 
       </Routes>
