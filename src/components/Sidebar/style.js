@@ -48,7 +48,7 @@ const Link = styled(NavLink)`
     border-left:2px solid var(--greenColor);
     border-right:2px solid var(--greenColor);
     color:var(--greenColor);
-    transition: padding 0.2s ease 0s;
+    transition: padding 0.5s ease ;
   }
   :focus Span {
    display:none;
