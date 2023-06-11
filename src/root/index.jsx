@@ -5,10 +5,7 @@ import Sidebar from "../components/Sidebar";
 import Components from "../components/Components";
 import { navbar } from "../utils/navbar";
 import { sidebar } from "../utils/sidebar";
-import Generic from "../components/Generic";
-import Soon from "../components/Soonpage";
 import Page from "../components/404page";
-import First from "../components/First";
 
 export const Root = () => {
   return (
