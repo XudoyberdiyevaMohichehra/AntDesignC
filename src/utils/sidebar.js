@@ -7,6 +7,7 @@ import { Tooltip } from "../components/Tooltips/index";
 import {Checkbox} from "../components/Checkboxes/index"
 import { Switch } from "../components/Switchs/index";
 import { Table } from "../components/Tables/index";
+import { Carousel } from "../components/Carousels";
 
 
 export const sidebar = [
@@ -31,7 +32,7 @@ export const sidebar = [
   {id:5, title:'Checkbox',icon:<CheckCircleOutlined/>, path:'/components/checkbox', element:<Checkbox/>},
   {id:6, title:'Switch',icon:<CheckCircleOutlined/>, path:'/components/switch', element:<Switch/>},
   {id:7, title:'Table',icon:<CheckCircleOutlined/>, path:'/components/table',  element:<Table/>},
-  {id:8, title:'Carousel',icon:<CheckCircleOutlined/>, path:'/components/carousel', element:<Generic/>},
+  {id:8, title:'Carousel',icon:<CheckCircleOutlined/>, path:'/components/carousel', element:<Carousel/>},
   {id:9, title:'Progress',icon:<CheckCircleOutlined/>, path:'/components/progress',  element:<Generic/>},
   {id:10, title:'Badge',icon:<CheckCircleOutlined/>, path:'/components/badge',  element:<Generic/>},
   {id:11, title:'Forms',icon:<ClockCircleOutlined/>, path:'/components/forms',  element:<Generic/>},
